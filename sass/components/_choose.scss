@@ -1,0 +1,17 @@
+.nav-content {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0px;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  &.element-cont:last-of-type {
+    margin-right: 0px;
+  }
+}
+
+.element-cont {
+  margin-right: 8px;
+}

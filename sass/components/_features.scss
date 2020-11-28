@@ -1,6 +1,6 @@
 .section-features {
   padding-top: 94px;
-  background-color: var(--white);
+  background-color: $white;
   margin-bottom: 94px;
 }
 .container-features {
@@ -10,16 +10,16 @@
   list-style: none;
   padding-left: 0;
   padding-right: 0;
-}
-.container-features img {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 55px;
-}
-.container-features .section-label {
-  display: flex;
-  margin-bottom: 0;
-  margin-top: 0;
+  & img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 55px;
+  }
+  & .section-label {
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
 }
 .item-features {
   margin-right: 30px;
@@ -84,7 +84,7 @@
   font-size: 14px;
   line-height: 171%;
   letter-spacing: 0.03em;
-  color: var(--grey);
+  color: $black;
   margin: 0;
 }
 
@@ -95,7 +95,7 @@
   line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--black);
+  color: $black;
   padding-bottom: 10px;
   margin-bottom: 0;
   margin-top: 0;

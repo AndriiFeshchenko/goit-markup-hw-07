@@ -1,0 +1,82 @@
+.cellar {
+  background-color: $cellar-fon;
+  display: block;
+
+  height: 252px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-content {
+  display: flex;
+}
+.logo-cellar {
+  padding-bottom: 60px;
+  padding-top: 60px;
+  height: 252px;
+}
+.footer-logo-link {
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.footer-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.footer-logo-second {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+.footer-adress {
+  margin-bottom: 9px;
+}
+.footer-map {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.171;
+  letter-spacing: 0.03em;
+  color: $white;
+  font-style: normal;
+  font-weight: normal;
+  transition: color $duration;
+}
+
+.connection {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 171%;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  transition: color $duration;
+}
+.footer-social {
+  margin-left: 70px;
+  padding-top: 72px;
+  height: 252px;
+}
+.text-connect {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $white;
+  padding: 0;
+  margin: 0;
+}

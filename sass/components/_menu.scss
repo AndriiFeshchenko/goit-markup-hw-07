@@ -1,10 +1,9 @@
 .header {
-  background-color: var(--white);
+  background-color: $white;
   height: 80px;
 }
-
 .nav .link.current {
-  color: var(--blue);
+  color: $blue;
   position: relative;
 }
 .current:after {
@@ -12,7 +11,7 @@
   display: block;
   width: 110%;
   height: 4px;
-  background-color: var(--blue);
+  background-color: $blue;
   border-radius: 2px;
   position: absolute;
   bottom: -32px;
@@ -22,38 +21,42 @@
 .icon-contacts-link {
   text-decoration: none;
   color: inherit;
-  transition: color var(--duration);
+  transition: color $duration;
 }
 .icon-contact {
   width: 16px;
   height: 11px;
   margin-right: 10px;
-  fill: var(--grey);
+  fill: $grey;
   vertical-align: middle;
-  transition: fill var(--duration);
+  transition: fill $duration;
 }
 
 .icon-contact-smart {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  fill: var(--grey);
+  fill: $grey;
   vertical-align: middle;
-  transition: fill var(--duration);
+  transition: fill $duration;
 }
 
-.icon-contacts-link:hover .icon-contact,
-.icon-contacts-link:focus .icon-contact {
-  fill: var(--blue);
+.icon-contacts-link {
+  &:hover .icon-contact,
+  &:focus .icon-contact {
+    fill: $blue;
+  }
 }
-.icon-contacts-link:hover .icon-contact-smart,
-.icon-contacts-link:focus .icon-contact-smart {
-  fill: var(--blue);
+.icon-contacts-link {
+  &:hover .icon-contact-smart,
+  &:focus .icon-contact-smart {
+    fill: $blue;
+  }
 }
 
 .icon-contacts-link:hover,
 .icon-contacts-link:focus {
-  color: var(--blue);
+  color: $blue;
 }
 .logo {
   font-family: Raleway;
@@ -61,7 +64,7 @@
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: var(--blue);
+  color: $blue;
   text-decoration: none;
 }
 .logo-container {
@@ -75,7 +78,7 @@
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: var(--black);
+  color: $black;
 }
 .menu-nav {
   margin-top: 0;
@@ -94,7 +97,7 @@
   margin-right: 50px;
 }
 .contacts-nav {
-  color: var(--grey);
+  color: $grey;
   margin-left: auto;
 }
 .contacts-nav .link + .link {
