@@ -1,0 +1,63 @@
+.backdrop {
+  position: relative;
+  top: -2500px;
+  left: 90px;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(25, 28, 38, 0.8);
+  z-index: 100;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+.is-hidden .modal {
+  transform: translate(-50%, 0%) scale(0.5);
+}
+.modal {
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  max-width: 528px;
+  height: 581px;
+  padding-left: 40px;
+
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+
+  background-color: var(--white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition: transform var(--duration);
+}
+.close-modal {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+
+  width: 30px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--white);
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.close-modal:hover {
+  background-color: var(--blue);
+}
+.recall-form {
+  text-align: left;
+}

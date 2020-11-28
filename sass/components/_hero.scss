@@ -1,0 +1,46 @@
+.cellar-hero {
+  display: block;
+  text-align: center;
+  background-color: var(--bg-color);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-img.png);
+  width: 1600px;
+  height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero {
+  text-align: center;
+  margin-bottom: 94px;
+  height: 600px;
+}
+.container-hero {
+  width: 1600px;
+  height: 600px;
+  margin: 0 auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-left: 452px;
+  margin-right: 452px;
+  padding-top: 200px;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+  width: 696px;
+}

@@ -1,0 +1,63 @@
+.form-title {
+  margin-bottom: 12px;
+  margin-top: 0;
+  height: 23px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+
+  color: var(--black);
+}
+.footer-connection {
+  display: inline-block;
+
+  padding-top: 72px;
+  margin-left: 93px;
+  height: 252px;
+}
+.email-input {
+  width: 358px;
+  height: 50px;
+  padding: 16px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-top: 20px;
+  transition: border var(--duration);
+}
+.email-input:focus {
+  border: 1px solid var(--blue);
+  outline: none;
+}
+.footer-btn {
+  position: relative;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1, 87;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  padding-right: 62px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-left: 12px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.icon-send-item {
+  fill: var(--white);
+  width: 24px;
+  height: 24px;
+}

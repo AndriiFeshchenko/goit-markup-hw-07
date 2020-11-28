@@ -1,0 +1,70 @@
+.social-icons-svg {
+  width: 20px;
+  height: 20px;
+  list-style: none;
+  fill: var(--social-links);
+  transition: fill var(--duration);
+}
+.social-icons-footer-svg {
+  width: 20px;
+  height: 20px;
+  list-style: none;
+  fill: var(--white);
+  transition: fill var(--duration);
+}
+.social-icons {
+  display: flex;
+  list-style: none;
+  padding-top: 0;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.social-icons-footer {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.social-icons-item:not(:last-child) {
+  margin-right: 10px;
+}
+.social-icons-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--white);
+  border-radius: 50%;
+  transition: background-color var(--duration);
+}
+.social-icons-link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transition: background-color var(--duration);
+}
+.social-icons-link:hover .social-icons-svg,
+.social-icons-link:focus .social-icons-svg {
+  fill: var(--white);
+}
+.social-icons-link:hover,
+.social-icons-link:focus {
+  background-color: var(--blue);
+}
+
+.social-icons-link-footer:hover .social-icons-footer-svg,
+.social-icons-link-footer:focus .social-icons-footer-svg {
+  fill: var(--white);
+}
+.social-icons-link-footer:hover,
+.social-icons-link-footer:focus {
+  background-color: var(--blue);
+}
